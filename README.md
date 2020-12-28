@@ -9,10 +9,10 @@
 
 
 ## People
-*[Dr. Jelena Tešić](jtesic.github.io), Computer Science
-*[Jiajian Lin](https://www.linkedin.com/in/jaxlin/), Summer 2020 REU student from UCLA
-*[Sebastian Santana](cross_flag.github.io), B.Sc. Fall 2020
-*[Alan Turner](mailto:alan@txstate.edu), M.Sc. Spring 2020
+* [Jelena Tešić](jtesic.github.io), Assistant Professor, Computer Science
+* [Jiajian Lin](https://www.linkedin.com/in/jaxlin/), Summer 2020 REU student from UCLA
+* [Sebastian Santana](cross_flag.github.io), B.Sc. Fall 2020
+* [Alan Turner](mailto:alan@txstate.edu), M.Sc. Spring 2020
 
 
 ## About
