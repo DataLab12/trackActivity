@@ -1,12 +1,7 @@
 # Overhead Object Tracking to Activity Recognition
-
 * Maritime object detection, identification, and tracking
 * Multi-camera overhead track projection and merge
 * Activity recognition from tracks 
-
-## Publications
-* "Computing with Words in Maritime Piracy and Attack Detection Systems", HCII 2020, [link](https://link.springer.com/chapter/10.1007/978-3-030-50439-7_30).
-
 
 ## People
 * [Jelena Tešić](jtesic.github.io), Assistant Professor, Computer Science
@@ -14,13 +9,14 @@
 * [Sebastian Santana](cross_flag.github.io), B.Sc. Fall 2020
 * [Alan Turner](mailto:alan@txstate.edu), M.Sc. Spring 2020
 
-
-## About
-
-Recent rise of maritime piracy and attacks on transportation ships has cost the global economy several billion dollars.  To counter the threat, researchers have proposed agent-driven modeling to capture dynamics of maritime transportation system, and to score the potential of a range of piracy countermeasures. Combining information from on-board sensors and cameras with intelligence from external sources for early piracy threat detection has shown promising re-sults but lacks real-time update for situational context.  Such systems can benefit from the early warnings such as “a boat is approaching the ship and accelerating”, “a boat is circling the ship,” or “two boats are diverging close to the ship”.  Existing on-board cameras capture these activities, but there is no automated processing of this type of  patterns to inform early warning system.  Visual data feed is used by crew only after they have been alerted of possible attack: camera sensors are inexpensive but transforming the incoming video data streams into ac-tionable items still demands expensive human processing.  We propose to apply the recent advances in deep learning to design and train algorithms to localize, identify, and track small maritime objects under varying conditions (e.g. snowstorm, high glare, night), and computing with words to identify threat-ing activities where lack of training data prohibits the use of deep learning.  
+"Computing with Words in Maritime Piracy and Attack Detection Systems", HCII 2020, [pdf](https://link.springer.com/chapter/10.1007/978-3-030-50439-7_30)
 
 This project is continuation of the [Aerial](https://github.com/DataLab12/AerialPipeline) project on localizing and identifying objects in maritime videos. First, we annotate activities in the videos: follow, speed up, loiter, seperate, and merge. Then we identify and track maritime vehicles using [CenterNetDeepSort](tracking/Util) package.
 Next, we automatically map the tracks to system-centric [overhead](overhead) view for multiple cameras in the system. We merge the [tracks](tracking) from the same vehicle accross different cameras, and activity recognition reduces to describing and identifying tracks of the maritime vehicles. We propose feature-based and location-based approach to classify tracks into activities, and augment the training data by creating more synthetic tracks using the same paradigm. 
+
+## About 
+
+Recent rise of maritime piracy and attacks on transportation ships has cost the global economy several billion dollars.  To counter the threat, researchers have proposed agent-driven modeling to capture dynamics of maritime transportation system, and to score the potential of a range of piracy countermeasures. Combining information from on-board sensors and cameras with intelligence from external sources for early piracy threat detection has shown promising re-sults but lacks real-time update for situational context.  Such systems can benefit from the early warnings such as “a boat is approaching the ship and accelerating”, “a boat is circling the ship,” or “two boats are diverging close to the ship”.  Existing on-board cameras capture these activities, but there is no automated processing of this type of  patterns to inform early warning system.  Visual data feed is used by crew only after they have been alerted of possible attack: camera sensors are inexpensive but transforming the incoming video data streams into ac-tionable items still demands expensive human processing.  We propose to apply the recent advances in deep learning to design and train algorithms to localize, identify, and track small maritime objects under varying conditions (e.g. snowstorm, high glare, night), and computing with words to identify threat-ing activities where lack of training data prohibits the use of deep learning.  
 
 ## Object Identification and Tracking
 
