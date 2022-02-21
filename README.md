@@ -7,7 +7,7 @@
 * [Jelena Tešić](jtesic.github.io), Assistant Professor, Computer Science
 * [George Strauch](https://george-strauch.github.io/), B.Sc. Fall 2021
 * [Jiajian Lin](https://www.linkedin.com/in/jaxlin/), Summer 2020 REU student from UCLA
-* [Sebastian Santana](cross_flag.github.io), B.Sc. Fall 2020
+* [Sebastian Santana](crossflag.github.io), B.Sc. Fall 2020
 * [Alan Turner](mailto:alan@txstate.edu), M.Sc. Spring 2020
 
 ## Publications 
