@@ -5,18 +5,25 @@
 
 ## People
 * [Jelena Tešić](jtesic.github.io), Assistant Professor, Computer Science
+* [George Strauch](https://george-strauch.github.io/), B.Sc. Fall 2021
 * [Jiajian Lin](https://www.linkedin.com/in/jaxlin/), Summer 2020 REU student from UCLA
 * [Sebastian Santana](cross_flag.github.io), B.Sc. Fall 2020
 * [Alan Turner](mailto:alan@txstate.edu), M.Sc. Spring 2020
 
-"Computing with Words in Maritime Piracy and Attack Detection Systems", HCII 2020, [pdf](https://link.springer.com/chapter/10.1007/978-3-030-50439-7_30)
+## Publications 
+
+* G. Strauch, J. Lin, J. Tešić, ``Overhead Projection Approach For Multi-Camera Vessel Activity Recognition'' IEEE BigData 2021. [paper](https://datalab12.github.io/documents/2021BigDataREU_activity.pdf) [slides](https://datalab12.github.io/documents/2021BigDataREU_activityslides.pdf)
+
+* J. Tešić, D. Tamir et. al, ``Computing with Words in Maritime Piracy and Attack Detection Systems'', HCII 2020, [pdf](https://link.springer.com/chapter/10.1007/978-3-030-50439-7_30)
+
+## Project 
 
 This project is continuation of the [Aerial](https://github.com/DataLab12/AerialPipeline) project on localizing and identifying objects in maritime videos. First, we annotate activities in the videos: follow, speed up, loiter, seperate, and merge. Then we identify and track maritime vehicles using [CenterNetDeepSort](tracking/Util) package.
-Next, we automatically map the tracks to system-centric [overhead](overhead) view for multiple cameras in the system. We merge the [tracks](tracking) from the same vehicle accross different cameras, and activity recognition reduces to describing and identifying tracks of the maritime vehicles. We propose feature-based and location-based approach to classify tracks into activities, and augment the training data by creating more synthetic tracks using the same paradigm. 
+Next, we automatically map the tracks to system-centric [overhead](overhead) view for multiple cameras in the system. We merge the [tracks](tracking) from the same vehicle accross different cameras, and activity recognition reduces to describing and identifying tracks of the maritime vehicles. Next, we propose feature-based and location-based approach to classify tracks into [activities](trackActivity), and augment the training data by creating more synthetic tracks using the same paradigm. 
 
 ## About 
 
-Recent rise of maritime piracy and attacks on transportation ships has cost the global economy several billion dollars.  To counter the threat, researchers have proposed agent-driven modeling to capture dynamics of maritime transportation system, and to score the potential of a range of piracy countermeasures. Combining information from on-board sensors and cameras with intelligence from external sources for early piracy threat detection has shown promising re-sults but lacks real-time update for situational context.  Such systems can benefit from the early warnings such as “a boat is approaching the ship and accelerating”, “a boat is circling the ship,” or “two boats are diverging close to the ship”.  Existing on-board cameras capture these activities, but there is no automated processing of this type of  patterns to inform early warning system.  Visual data feed is used by crew only after they have been alerted of possible attack: camera sensors are inexpensive but transforming the incoming video data streams into ac-tionable items still demands expensive human processing.  We propose to apply the recent advances in deep learning to design and train algorithms to localize, identify, and track small maritime objects under varying conditions (e.g. snowstorm, high glare, night), and computing with words to identify threat-ing activities where lack of training data prohibits the use of deep learning.  
+Recent rise of maritime piracy and attacks on transportation ships has cost the global economy several billion dollars.  To counter the threat, researchers have proposed agent-driven modeling to capture dynamics of maritime transportation system, and to score the potential of a range of piracy countermeasures. Combining information from on-board sensors and cameras with intelligence from external sources for early piracy threat detection has shown promising re-sults but lacks real-time update for situational context.  Such systems can benefit from the early warnings such as “a boat is approaching the ship and accelerating”, “a boat is circling the ship,” or “two boats are diverging close to the ship”.  Existing on-board cameras capture these activities, but there is no automated processing of this type of  patterns to inform early warning system.  Visual data feed is used by crew only after they have been alerted of possible attack: camera sensors are inexpensive but transforming the incoming video data streams into actionable items still demands expensive human processing.  We propose to apply the recent advances in deep learning to design and train algorithms to localize, identify, and track small maritime objects under varying conditions (e.g. snowstorm, high glare, night), and several methods to identify threating activities where lack of training data prohibits the use of deep learning. 
 
 ## Object Identification and Tracking
 
@@ -35,4 +42,6 @@ Then you can use [Clicks.py](overhead/clicks.py) to match points from your cadfi
 
 ## Activity identification and recognition 
 
-[Activity](activity) - To be added after January 2021 paper submission. 
+[Activity](activity) - The last piece in integrated end-to-end system that analyzes multi-camera ship video feed, localizes maritime vessels in the video feed, identifies the maritime vessel over multiple cameras, maps the vessel track onto an overhead plane is to identify anomalous vessel movement around the ship. We focus on a specific activity detection approach in maritime vessel overhead tracks and on synthetic data generation to realistically model maritime boat movements around onboard ship cameras using real-world examples. We propose and compare three novel modes of trajectory analysis and activity classification, using Computing with Words [CWW](activity/baseline/computing-with-words.py), a Markov trajectory feature classifier [MTFC](activity/baseline/hmm.py), and Na¨ıve Bayes Radial Classifier [NBRC](activity/radial/activity-classifier.py) to detect the activity of vessel approaching the ship, vessel chasing another vessel, and vessel circling around the ship.
+ 
+
