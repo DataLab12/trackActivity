@@ -3,18 +3,35 @@
 * Multi-camera overhead track projection and merge
 * Activity recognition from tracks 
 
+
+## Citation 
+
+Please cite this publication: G. E. Strauch, J. J. Lin and J. Tešić, "[_Overhead Projection Approach For Multi-Camera Vessel Activity Recognition_](https://ieeexplore.ieee.org/document/9671274)," 2021 IEEE International Conference on Big Data (Big Data), 2021, pp. 5626-5632, doi: 10.1109/BigData52589.2021.9671274. [paper](https://datalab12.github.io/documents/2021BigDataREU_activity.pdf)
+
+ **BibTeX entry:**
+
+```
+@INPROCEEDINGS{9671274,
+  author={Strauch, George E. and Lin, Jiajian Jax and Tešić, Jelena},
+  booktitle={2021 IEEE International Conference on Big Data (Big Data)}, 
+  title={Overhead Projection Approach For Multi-Camera Vessel Activity Recognition}, 
+  year={2021},
+  pages={5626-5632},
+  doi={10.1109/BigData52589.2021.9671274}
+}
+```
+
+
+## Other related publications: 
+
+* J. Tešić, D. Tamir et. al, ``Computing with Words in Maritime Piracy and Attack Detection Systems'', HCII 2020, [pdf](https://link.springer.com/chapter/10.1007/978-3-030-50439-7_30)
+
 ## People
 * [Jelena Tešić](jtesic.github.io), Assistant Professor, Computer Science
 * [George Strauch](https://george-strauch.github.io/), B.Sc. Fall 2021
 * [Jiajian Lin](https://www.linkedin.com/in/jaxlin/), Summer 2020 REU student from UCLA
 * [Sebastian Santana](crossflag.github.io), B.Sc. Fall 2020
 * [Alan Turner](mailto:alan@txstate.edu), M.Sc. Spring 2020
-
-## Publications 
-
-* G. Strauch, J. Lin, J. Tešić, ``Overhead Projection Approach For Multi-Camera Vessel Activity Recognition'' IEEE BigData 2021. [paper](https://datalab12.github.io/documents/2021BigDataREU_activity.pdf) [slides](https://datalab12.github.io/documents/2021BigDataREU_activityslides.pdf)
-
-* J. Tešić, D. Tamir et. al, ``Computing with Words in Maritime Piracy and Attack Detection Systems'', HCII 2020, [pdf](https://link.springer.com/chapter/10.1007/978-3-030-50439-7_30)
 
 ## Project 
 
