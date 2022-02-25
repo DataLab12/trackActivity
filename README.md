@@ -26,7 +26,9 @@ Please cite this publication: G. E. Strauch, J. J. Lin and J. Tešić, "[_Overhe
 
 ## Other related publications: 
 
-* J. Tešić, D. Tamir et. al, ``Computing with Words in Maritime Piracy and Attack Detection Systems'', HCII 2020, [pdf](https://link.springer.com/chapter/10.1007/978-3-030-50439-7_30)
+* J. Tešić, D. Tamir et. al, ``Computing with Words in Maritime Piracy and Attack Detection Systems'', HCII 2020, [link](https://link.springer.com/chapter/10.1007/978-3-030-50439-7_30)
+
+* N. Warren, B. Garrard, E. Staudt and J. Tešić, "Transfer Learning of Deep Neural Networks for Visual Collaborative Maritime Asset Identification," 2018 IEEE 4th International Conference on Collaboration and Internet Computing (CIC), 2018, pp. 246-255, doi: 10.1109/CIC.2018.00041. [link](https://ieeexplore.ieee.org/document/8537839)
 
 ## People
 * [Jelena Tešić](jtesic.github.io), Assistant Professor, Computer Science
@@ -62,4 +64,4 @@ Then you can use [Clicks.py](overhead/clicks.py) to match points from your cadfi
 
 [Activity](activity) - The last piece in integrated end-to-end system that analyzes multi-camera ship video feed, localizes maritime vessels in the video feed, identifies the maritime vessel over multiple cameras, maps the vessel track onto an overhead plane is to identify anomalous vessel movement around the ship. We focus on a specific activity detection approach in maritime vessel overhead tracks and on synthetic data generation to realistically model maritime boat movements around onboard ship cameras using real-world examples. We propose and compare three novel modes of trajectory analysis and activity classification, using Computing with Words [CWW](activity/baseline/computing-with-words.py), a Markov trajectory feature classifier [MTFC](activity/baseline/hmm.py), and Na¨ıve Bayes Radial Classifier [NBRC](activity/radial/activity-classifier.py) to detect the activity of vessel approaching the ship, vessel chasing another vessel, and vessel circling around the ship.
  
-
+[Data Lab @ TXST](DataLab12.github.io)
