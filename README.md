@@ -1,4 +1,6 @@
 # Overhead Object Tracking to Activity Recognition
+
+This project is continuation of the [Aerial](https://github.com/DataLab12/AerialPipeline) project on localizing and identifying objects in maritime videos. 
 * Maritime object detection, identification, and tracking
 * Multi-camera overhead track projection and merge
 * Activity recognition from tracks 
@@ -35,8 +37,7 @@ Please cite this publication: G. E. Strauch, J. J. Lin and J. Tešić, "[_Overhe
 
 ## Project 
 
-This project is continuation of the [Aerial](https://github.com/DataLab12/AerialPipeline) project on localizing and identifying objects in maritime videos. First, we annotate activities in the videos: follow, speed up, loiter, seperate, and merge. Then we identify and track maritime vehicles using [CenterNetDeepSort](tracking/Util) package.
-Next, we automatically map the tracks to system-centric [overhead](overhead) view for multiple cameras in the system. We merge the [tracks](tracking) from the same vehicle accross different cameras, and activity recognition reduces to describing and identifying tracks of the maritime vehicles. Next, we propose feature-based and location-based approach to classify tracks into [activities](trackActivity), and augment the training data by creating more synthetic tracks using the same paradigm. 
+First, we annotate activities in the videos: follow, speed up, loiter, seperate, and merge. Then we identify and track maritime vehicles using [CenterNetDeepSort](tracking/Util) package. Next, we automatically map the tracks to system-centric [overhead](overhead) view for multiple cameras in the system. We merge the [tracks](tracking) from the same vehicle accross different cameras, and activity recognition reduces to describing and identifying tracks of the maritime vehicles. Next, we propose feature-based and location-based approach to classify tracks into [activities](trackActivity), and augment the training data by creating more synthetic tracks using the same paradigm. 
 
 ## About 
 
